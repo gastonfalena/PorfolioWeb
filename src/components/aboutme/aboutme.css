@@ -1,0 +1,62 @@
+/* .container3{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-style:groove;
+    margin: 5px;
+
+
+}
+.aboutme{
+    align-self: flex-start; 
+    margin-left: 40%;
+}
+.text {
+    align-self: center;  
+    max-width: 500px;    
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify; 
+} */
+.container3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* Centra todo */
+    justify-content: center;
+    text-align: center;
+    background-color: #ffffff;  /* Fondo blanco */
+    padding: 50px 20px;
+    min-height: auto; 
+    margin-top: 20px;
+}
+
+.aboutme {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333; /* Texto oscuro para contraste */
+    margin-bottom: 15px;
+}
+
+.text {
+    font-size: 18px;
+    color: #555; /* Gris oscuro para mejor lectura */
+    max-width: 700px;
+    line-height: 1.6; /* Espaciado entre líneas */
+    text-align: justify; /* Alineado justificado para mejor estética */
+}
+
+.text::first-letter {
+    font-size: 24px;
+    font-weight: bold;
+    color: darkcyan; /* Resalta la primera letra */
+}
+
+/* Para pantallas grandes */
+@media (min-width: 768px) {
+    .text {
+        font-size: 20px;
+        max-width: 800px;
+    }
+}
