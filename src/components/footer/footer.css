@@ -1,0 +1,67 @@
+.footer {
+    background-color: rgb(210, 210, 222);
+    color:black; 
+    text-align: center;
+    padding: 16px 0;
+    border-top: 1px solid #ddd;
+    width: 100%; 
+    margin:0px;
+  }
+  
+  .container5 {
+
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  
+  .footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+  }
+  .links2{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .links2 a {
+    color: #6c757d; 
+    font-size: 20px; 
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .links2 a:hover {
+    color: #343a40;
+  }
+
+/* Botón para volver arriba */
+.scroll-to-top {
+    position: fixed;  /* Fijado en la pantalla */
+    bottom: 20px;  /* Distancia desde la parte inferior */
+    right: 20px;   /* Ubicación a la derecha */
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Imagen dentro del botón */
+.scroll-icon {
+    width: auto;  /* Mantiene la proporción */
+    height: 40px;  /* Ajusta según el tamaño de la imagen */
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Efecto hover */
+.scroll-to-top:hover .scroll-icon {
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño */
+}
+
+/* Animación al hacer clic */
+.scroll-to-top:active .scroll-icon {
+    transform: scale(0.9); /* Simula presión */
+}
