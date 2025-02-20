@@ -39,7 +39,7 @@ El mayor desafío fue diseñar correctamente el diagrama de entidad-relación, a
           <div className="textP">
             <h3 className="titleP">Palindrome-SN</h3>
             <p>
-            Una biblioteca sencilla disponible en npm para verificar si una cadena o número es un palíndromo.
+            Biblioteca sencilla disponible en npm para verificar si una cadena o número es un palíndromo.
             Ignora mayúsculas y espacios en las cadenas.
             </p>
             
