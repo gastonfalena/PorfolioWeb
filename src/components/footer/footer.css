@@ -34,6 +34,10 @@
   .links2 a:hover {
     color: #343a40;
   }
+  .copy{
+    font-size: 11px;
+    font-family:serif;
+  }
 
 /* Botón para volver arriba */
 .scroll-to-top {

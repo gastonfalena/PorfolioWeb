@@ -12,8 +12,7 @@ export default function Footer() {
   return (
     <footer className="footer">
     <div className="container5">
-      <p className="text-sm mb-2">© {new Date().getFullYear()} Gastón Falena</p>
-        <div className="links2">
+    <div className="links2">
                   <a href="https://www.linkedin.com/in/gaston-falena/" target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={faLinkedin} />
                   </a>
@@ -21,6 +20,8 @@ export default function Footer() {
                     <FontAwesomeIcon icon={faGithub} />
                   </a>
                 </div>
+      <p className='copy'>Copyright © {new Date().getFullYear()} Gastón Falena</p>
+  
     </div>
     <button className="scroll-to-top" onClick={scrollToTop}>
         <img src='volver-arriba.png'  alt="Volver arriba" className="scroll-icon"/>
